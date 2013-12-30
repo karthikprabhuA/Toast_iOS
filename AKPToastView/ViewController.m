@@ -29,7 +29,14 @@
 
 -(IBAction)ButtonClicked:(id)sender
 {
-    AKPToast* view = [[AKPToast alloc]initWithText:@"  Please wait...  " toastView:self.view position:CENTER];
-    [view show];
+    AKPToast* toast = [[AKPToast alloc]initWithText:@"Please wait.." toastView:self.view position:CENTER duration:SHORT];
+    //toast.customToastPosition = CGPointMake(30, 100);
+    [toast show];
 }
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
 @end
