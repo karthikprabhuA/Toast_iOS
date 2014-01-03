@@ -402,6 +402,7 @@
 				GCC_PREFIX_HEADER = "AKPToastView/AKPToastView-Prefix.pch";
 				INFOPLIST_FILE = "AKPToastView/AKPToastView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,6 +416,7 @@
 				GCC_PREFIX_HEADER = "AKPToastView/AKPToastView-Prefix.pch";
 				INFOPLIST_FILE = "AKPToastView/AKPToastView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -480,6 +482,7 @@
 				82AD1F8318707E780076687B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82AD1F8418707E780076687B /* Build configuration list for PBXNativeTarget "AKPToastViewTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +491,7 @@
 				82AD1F8618707E780076687B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
