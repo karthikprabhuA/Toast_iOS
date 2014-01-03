@@ -62,3 +62,7 @@ Following delegate will gets called when toast completed
 {
    
 }
+
+![iPhone screenshot](https://raw.github.com/karthikprabhuA/Toast_iOS/master/iphone_screenshot.png)
+
+![iPad screenshot](https://raw.github.com/karthikprabhuA/Toast_iOS/master/ipad_screenshot.png)
